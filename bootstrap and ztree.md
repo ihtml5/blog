@@ -1,5 +1,4 @@
 ### **［项目目录］Project directory structure**
-前端所有资源都放在assets; 
 
 
 ### **［UI框架］Bootstrap**
