@@ -14,6 +14,7 @@
       <script charset="utf-8" src=""></script>
     ```
     * 所有html标签要小写，js变量命名要使用驼峰命名法
+    
     **Good**
     ```
      <body></body>
@@ -41,6 +42,23 @@
    ```
      <span class="npc-tabBtn allSubBtn" id="allSubBtn"></span>
     ```
-    > npc-tabBtn表示它是一个tab标签页下的按钮 allSubBtn表示的意思是所有正式提交，类比的还有reportBtn 表示生成报表，excelBtn表示导出数据,allEndBtn表示所有结束提交的
+    > **npc-tabBtn**表示它是一个tab标签页下的按钮;
+      **allSubBtn** 表示的意思是所有正式提交;
+      类比的还有**reportBtn**表示生成报表;
+      **excelBtn**表示导出数据;
+      allEndBtn表示所有结束提交的...
+      
+   *  tab标签按钮
+   ```
+    <div class="npc-tabs" id="toolbar">
+       <div class="btn-group bill-btns" role="group">
+           <button type="button" class="btn btn-default active" id="collectMsgProposal">征集留言的建议<span class="npc-tabInfo">(12)</span></button>
+           <button type="button" class="btn btn-default" id="collectSedProposal">征集附议的建议<span>(2)</span></button>
+           <button type="button" class="btn btn-default" id="formalSubProposal">正式提交的建议<span>(4)</span></button>
+       </div>
+     </div>
+    ```
+    >  **注意** 以后所有工具栏按钮都长这样，默认高亮的需要在span上增加npc-tabInfo类。该类表示以红色高亮显示当前数据集个数。
 4. 命名规则
+  * css规则 
 5. 简单调试技巧
