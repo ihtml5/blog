@@ -61,4 +61,6 @@
     >  **注意** 以后所有工具栏按钮都长这样，默认高亮的需要在span上增加npc-tabInfo类。该类表示以红色高亮显示当前数据集个数。
 4. 命名规则
   * css规则 
+    * 根据[bem](https://en.bem.info)命名风格
 5. 简单调试技巧
+   使用chrome浏览器进行调试 [文章1](http://www.ibm.com/developerworks/cn/web/1410_wangcy_chromejs/) [文章2](http://www.ibm.com/developerworks/cn/web/1410_wangcy_chromejs/)
