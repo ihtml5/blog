@@ -40,7 +40,20 @@
 
 ####  Links
 
-> 一些有用的调研链接
+1. **[Iframes, onload, and document.domain](https://www.nczonline.net/blog/2009/09/15/iframes-onload-and-documentdomain/)**
+
+2. **[iframe异步加载技术及性能](http://www.cnblogs.com/beiyuu/archive/2011/07/18/iframe-tech-performance.html)**
+
+3. **[Using Iframes Sparingly](https://www.stevesouders.com/blog/2009/06/03/using-iframes-sparingly/)**
+
+4. **[Iframe loading techniques and performance](http://www.aaronpeters.nl/blog/iframe-loading-techniques-performance?%3E)**
+
+5. **[Modern iframe programing](http://www.aaronpeters.nl/blog/iframe-loading-techniques-performance?%3E)**
+
+6. **[Using Iframes to Address Third-Party Script Issues and Boost Performance](http://radar.oreilly.com/2013/06/using-iframes-to-address-third-party-script-issues-and-boost-performance.html)**
+
+7. **[Non-onload-blocking async JS](http://www.phpied.com/non-onload-blocking-async-js/)**
+
 
 ### 4.**交互优化**
 
