@@ -12,7 +12,8 @@
 
 ####  Links
 
-> 
+1. [react和webpack小人书](https://wohugb.gitbooks.io/react-webpack-cookbook/content/)
+2. [Gulp 入门指南](https://github.com/ihtml5/gulp-book)
 
 ### 2.**table组件，form表单页面样式交互统一**
 
