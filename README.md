@@ -5,9 +5,9 @@
 
 ##文章列表
 
-###2016-08-19 
+###2016-08-19
 
-####NPC
+###### NPC
 
 1. [使用到的组件](https://github.com/ihtml5/blog/issues/2)
 2. [代码规范](https://github.com/ihtml5/blog/issues/3)
