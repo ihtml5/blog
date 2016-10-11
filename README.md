@@ -15,4 +15,5 @@
 
 ##### 我是前端
 
-1.[前后端交互](https://github.com/ihtml5/blog/issues/7)
+1. [前后端交互](https://github.com/ihtml5/blog/issues/7)
+2. [从面试题“如何删除cookies“说起](https://github.com/ihtml5/blog/issues/14)
