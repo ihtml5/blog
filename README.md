@@ -1,7 +1,7 @@
 ## **My Blog**
 分享自己在前端开发过程中学到的知识
 
-## 文章列表
+### 文章列表
 #### NPC
 
 1. [使用到的组件](https://github.com/ihtml5/blog/issues/2)
