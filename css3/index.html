@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            body {
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+            .demos-css3-container {
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+                background-color: #000;
+                color: #fff;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 200px;
+                /*
+                 translate
+                */
+                transform: rotate(30deg);
+                z-index: 3000;
+            }
+            .no-rotate {
+                color: #000;
+                background-color: #fff;
+                transform: rotate(0);
+                border: 1px solid #333;
+            }
+            .css3-around-shadow {
+                box-shadow: 0 0 20px #000;
+            }
+            .css3-circle {
+                transform: none;
+                border-radius: 100px;
+                border-image: url('http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg') 30 30 round;
+            }
+            .css3-background-size {
+                background-image: url('http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg'), url('http://b.hiphotos.baidu.com/image/pic/item/fc1f4134970a304e24d83ee5dbc8a786c9175c32.jpg');
+                /*background-size: 100% 100%;*/
+                background-origin: border-content;
+            }
+            .css3-3d-transform {
+                perspective: 500;
+                -webkit-perspective: 500; /* Safari 和 Chrome */
+                transform: rotateX(60deg);
+            }
+            .css3-transition {
+                background-color: #5ba95d;
+            }
+            .css3-transition:hover {
+                background-color: #123;
+                color: #5ba95d;
+                font-size: 20px;
+                transition: all 0.3 1s ease-in;
+            }
+            @keyframes css3 {
+                0%   {background: red; left:0px; top:0px; transform: translate(-50px, 0);}
+                100% {background: red; left:0px; top:0px; transform: translate(150px, 0);}
+            }
+            .css3-animation {
+                animation-name: css3;
+                animation-duration: 5s;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-play-state: running;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="demos-css3-container css3-around-shadow">
+            <pre>transform: rotate(30deg); </pre>
+        </div>
+        <div class="demos-css3-container no-rotate">
+            <pre>normal</pre>
+        </div>
+        <div class="demos-css3-container css3-circle">
+            <pre>border-radius: 100px;</pre>
+        </div>
+        <div class="demos-css3-container css3-background-size">
+            <pre>border-radius: 100px;</pre>
+        </div>
+        <div class="demos-css3-container css3-3d-transform">
+            <pre>border-radius: 100px;</pre>
+        </div>
+        <div class="demos-css3-container css3-transition">
+            <pre>transition</pre>
+        </div>
+        <div class="demos-css3-container css3-animation">
+            <pre>animation</pre>
+        </div>
+    </body>
+</html>
