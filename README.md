@@ -1,7 +1,12 @@
 ## **My Blog**
 分享自己在前端开发过程中学到的知识
 
+### 每日前端好文精读
+1. [司徒正美介绍类react框架anu如何实现在ie8上运行](http://react-china.org/t/react-anu-ie/12788)
+2. [DOM事件简介](http://blog.jobbole.com/52430/)
+
 ### 文章列表
+
 #### css3
 1. [CSS3 w3cplus](http://www.w3cplus.com/content/css3-transform)
 
