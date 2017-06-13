@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../app.css"/>
+    </head>
+    <body>
+        <div id="root">root</div>
+        <iframe id="ifr" src="http://localhost:3001/posm.html"></iframe>
+        <script src="http://localhost:3001/javascripts/cors.test.js" charset="utf-8"></script>
+        <script charset="utf-8" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script charset="utf-8">
+            var ifr = document.getElementById('ifr');
+            var targetOrigin = 'http://localhost:3001';
+            ifr.onload = function () {
+                ifr.contentWindow.postMessage('i was there', targetOrigin);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../app.css"/>
+    </head>
+    <body>
+        <div id="root">root</div>
+        <script charset="utf-8" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script charset="utf-8">
+            function proxy(src, func) {
+                var isFirst = true;
+                var ifr =document.createElement('iframe');
+                var loadFunc = function () {
+                    if (isFirst) {
+                        console.log('::::isFirst');
+                        ifr.contentWindow.location = 'http://localhost:9000/cros/name.html';
+                        isFirst = false;
+                    } else {
+                        console.log('::::func', ifr.contentWindow.name);
+                        func(ifr.contentWindow.name);
+                        ifr.contentWindow.close();
+                        document.body.removeChild(ifr);
+                        ifr.src = '';
+                        ifr = null;
+                    }
+                }
+                ifr.src = src;
+                ifr.style.display = 'none';
+                if (ifr.attachEvent) {
+                    ifr.attachEvent('onload', loadFunc);
+                } else {
+                    ifr.onload =loadFunc;
+                }
+                document.body.appendChild(ifr);
+            }
+            proxy('http://localhost:3001/proxyname.html', function(name) {
+                console.log('::::name', JSON.parse(name));
+            })
+        </script>
+    </body>
+</html>

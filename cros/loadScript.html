@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../app.css"/>
+    </head>
+    <body>
+        <div id="root">root</div>
+        <script src="http://localhost:3001/javascripts/cors.test.js" charset="utf-8"></script>
+        <script charset="utf-8" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script charset="utf-8">
+        // document.domain = 'localhost';
+        function loadScript(src, cb, func) {
+            var spt = document.createElement('script');
+            spt.src = src;
+            spt.onload = spt.onreadystatechange =  function(e) {
+                if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+                    cb(e);
+                    spt.onload = spt.onreadystatechange = null;
+                }
+            }
+            func(spt);
+        }
+        window.baidu = {
+            sug: function (info) {
+                console.log(info);
+            }
+        };
+        loadScript('http://suggestion.baidu.com/su?wd=w', function (info) {
+            console.log('loaded', info);
+        }, function(spt) {
+            var head = document.head || document.getElementsByTagName('head')[0];
+            head.appendChild(spt);
+        });
+        </script>
+    </body>
+</html>

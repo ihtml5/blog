@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../app.css"/>
+    </head>
+    <body>
+        <div id="root">root</div>
+        <script src="http://localhost:3001/javascripts/cors.test.js" charset="utf-8"></script>
+        <script charset="utf-8" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+        <script charset="utf-8">
+            function startRequest() {
+                var ifr =document.createElement('iframe');
+                ifr.style.display = 'none';
+                ifr.src = 'http://localhost:3001/index.html#paramdo';
+                document.body.appendChild(ifr);
+            }
+            function checkHash() {
+                try {
+                    var data =  window.location.hash ? window.location.hash.slice(1) : '';
+                    if (console.log) {
+                        console.log('data', data);
+                    }
+                } catch(e) {
+
+                }
+            }
+            setInterval(checkHash, 2000);
+            startRequest();
+        </script>
+    </body>
+</html>

@@ -18,7 +18,6 @@
                 /*
                  translate
                 */
-                transform: rotate(30deg);
                 z-index: 3000;
             }
             .no-rotate {
@@ -33,12 +32,13 @@
             .css3-circle {
                 transform: none;
                 border-radius: 100px;
-                border-image: url('http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg') 30 30 round;
+                border-image: url('../shared/i/p.png') 30 30 round;
             }
             .css3-background-size {
-                background-image: url('http://img3.imgtn.bdimg.com/it/u=4271053251,2424464488&fm=23&gp=0.jpg'), url('http://b.hiphotos.baidu.com/image/pic/item/fc1f4134970a304e24d83ee5dbc8a786c9175c32.jpg');
-                /*background-size: 100% 100%;*/
+                background-size: 100% 100%;
                 background-origin: border-content;
+                background-image: url('i/p.png');
+                background-color: #eee;
             }
             .css3-3d-transform {
                 perspective: 500;
@@ -67,6 +67,44 @@
                 animation-direction: alternate;
                 animation-play-state: running;
             }
+            .css3-tranigle {
+                width: 0;
+                height: 0;
+                border-top: 20px solid #fff;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                transform: rotate(180deg);
+            }
+            .css3-opacity {
+                /* IE5 - 7 */
+                filter: alpha(opacity=20); 
+                /* IE 8 */
+                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"; 
+                /* Everyone else */
+                opacity: 0.2;
+            }
+            .css3-text-shadow {
+                /*text-shadow: 0 0 20px #389;
+                text-transform: uppercase;*/
+                text-shadow: -1px -1px rgba(197, 223, 248,0.8),-2px -2px rgba(197, 223, 248,0.8),-3px -3px rgba(197, 223, 248,0.8),-4px -4px rgba(197, 223, 248,0.8),-5px -5px rgba(197, 223, 248,0.8),-6px -6px rgba(197, 223, 248,0.8);
+            }
+            .css3-box-shadow {
+                box-shadow: -10px 0 0 red, -20px 0 0 #567;
+                transform: translate(50px, 0);
+            }
+            .css3-box-shadow-around {
+                transform: translate(100px, 0);
+                box-shadow: 0 0 0 10px #109;
+            }
+            .css3-box-shadow-inset {
+                box-shadow: 0 0  10px #109 inset;
+            }
+            .css3-box-shadow-around:after {
+                content: 'cccc';
+                display: inline-block;
+                color: #000;
+            }
         </style>
     </head>
     <body>
@@ -80,7 +118,6 @@
             <pre>border-radius: 100px;</pre>
         </div>
         <div class="demos-css3-container css3-background-size">
-            <pre>border-radius: 100px;</pre>
         </div>
         <div class="demos-css3-container css3-3d-transform">
             <pre>border-radius: 100px;</pre>
@@ -91,5 +128,16 @@
         <div class="demos-css3-container css3-animation">
             <pre>animation</pre>
         </div>
+        <div class="css3-tranigle" title="toggle">
+        </div>
+        <div class="demos-css3-container css3-opacity"></div>
+        <p class="css3-text-shadow">text-shadow[大于ie10]</p>
+        <div class="demos-css3-container css3-box-shadow">
+            单边阴影
+        </div>
+        <div class="demos-css3-container css3-box-shadow-around">
+            四周都具有阴影
+        </div>
+        <img src="i/p.png" class="css3-box-shadow-inset">
     </body>
 </html>
