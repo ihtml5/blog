@@ -19,3 +19,8 @@
     > 需要验证登录信息的跨域调试实践
 5. [前端与后台接口跨域联调](http://www.lred.me/2016/09/05/http-proxy/)
     > 常用地跨域调试实践
+    
+### 缓存
+
+1. [浏览器缓存机制](https://www.cnblogs.com/skynet/archive/2012/11/28/2792503.html)
+2. [浏览器缓存知识小结及应用](http://web.jobbole.com/84888/)
