@@ -24,6 +24,7 @@
 
 1. [浏览器缓存机制](https://www.cnblogs.com/skynet/archive/2012/11/28/2792503.html)
 2. [浏览器缓存知识小结及应用](http://web.jobbole.com/84888/)
+3. [Web storage](https://html.spec.whatwg.org/multipage/webstorage.html#dom-localstorage)
 
 ### 测试
 1. [前端自动化测试探索](http://fex.baidu.com/blog/2015/07/front-end-test/)
