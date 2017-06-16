@@ -36,3 +36,6 @@
 2. [Web前端性能优化——如何提高页面加载速度](http://www.cnblogs.com/MarcoHan/p/5295398.html)
 3. [Web前端性能优化进阶——完结篇](http://www.cnblogs.com/MarcoHan/p/5297798.html)
 4. [Web性能优化系列：10个JavaScript性能提升的技巧](http://web.jobbole.com/82469/)
+
+### 函数式编程
+1. [函数式编程](https://ppt.baomitu.com/d/0bda92b8#/)
