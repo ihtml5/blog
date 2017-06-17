@@ -38,3 +38,6 @@
 
 ### 函数式编程
 1. [函数式编程](https://ppt.baomitu.com/d/0bda92b8#/)
+
+### liunx
+1. [Linux中常用操作命令](http://www.cnblogs.com/laov/p/3541414.html#Linux)
