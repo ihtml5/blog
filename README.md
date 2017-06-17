@@ -30,7 +30,7 @@
 2. [如何进行前端自动化测试？](https://www.zhihu.com/question/29922082)
 3. [前端自动化测试解决方案探析](http://imweb.io/topic/5833d14cf8a1d5546059a301)
 
-### Web前段性能优化
+### Web前端性能优化
 1. [Web前端性能优化——编写高效的JavaScript](http://www.cnblogs.com/MarcoHan/p/5315361.html)
 2. [Web前端性能优化——如何提高页面加载速度](http://www.cnblogs.com/MarcoHan/p/5295398.html)
 3. [Web前端性能优化进阶——完结篇](http://www.cnblogs.com/MarcoHan/p/5297798.html)
