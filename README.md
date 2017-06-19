@@ -41,3 +41,6 @@
 
 ### liunx
 1. [Linux中常用操作命令](http://www.cnblogs.com/laov/p/3541414.html#Linux)
+
+### XSS与CSRF
+1. [XSS 和 CSRF 攻击的一些非常规防御方法](http://www.imooc.com/article/18069)
