@@ -5,6 +5,8 @@
 1. [司徒正美介绍类react框架anu如何实现在ie8上运行](http://react-china.org/t/react-anu-ie/12788)
 2. [DOM事件简介](http://blog.jobbole.com/52430/)
 3. [javascript线程及与线程有关的性能优化](https://github.com/woai30231/javascriptThreadStudy)
+### 跨端
+1. [React Native初探](http://www.cnblogs.com/yexiaochai/p/6042112.html)
 
 ### 跨域
 
