@@ -7,7 +7,8 @@
 3. [javascript线程及与线程有关的性能优化](https://github.com/woai30231/javascriptThreadStudy)
 ### 跨端
 1. [React Native初探](http://www.cnblogs.com/yexiaochai/p/6042112.html)
-
+### 框架设计
+1. [Patterns For Large-Scale JavaScript Application Architecture](https://addyosmani.com/largescalejavascript/)
 ### 跨域
 
 1. [Cross-Origin Resource Sharing](https://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
