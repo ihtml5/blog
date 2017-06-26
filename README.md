@@ -47,3 +47,9 @@
 
 ### XSS与CSRF
 1. [XSS 和 CSRF 攻击的一些非常规防御方法](http://www.imooc.com/article/18069)
+
+### 移动web
+1. [移动端1px细线解决方案总结](http://www.cnblogs.com/fang51/p/5681528.html)
+2. [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
+3. [使用Flexible实现手淘H5页面的终端适配](http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+4. [lib-flexible](https://github.com/amfe/lib-flexible)
