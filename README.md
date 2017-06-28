@@ -53,3 +53,7 @@
 2. [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
 3. [使用Flexible实现手淘H5页面的终端适配](http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
 4. [lib-flexible](https://github.com/amfe/lib-flexible)
+
+
+### 单页应用
+1. [持续部署单页应用的7大技巧](http://www.jianshu.com/p/6185a9bfd9eb)
