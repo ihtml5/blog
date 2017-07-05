@@ -21,6 +21,7 @@
     > 需要验证登录信息的跨域调试实践
 5. [前端与后台接口跨域联调](http://www.lred.me/2016/09/05/http-proxy/)
     > 常用地跨域调试实践
+6. [JSONP原理优缺点(只能GET不支持POST)](http://blog.csdn.net/z69183787/article/details/19191385)
     
 ### 缓存
 
@@ -38,6 +39,8 @@
 2. [Web前端性能优化——如何提高页面加载速度](http://www.cnblogs.com/MarcoHan/p/5295398.html)
 3. [Web前端性能优化进阶——完结篇](http://www.cnblogs.com/MarcoHan/p/5297798.html)
 4. [Web性能优化系列：10个JavaScript性能提升的技巧](http://web.jobbole.com/82469/)
+5. [JavaScript 节流函数 Throttle 详解](http://blog.csdn.net/u013510614/article/details/51920770)
+6. [Debounce & Throtte JavaScript demo](https://github.com/dcorb/debounce-throttle)
 
 ### 函数式编程
 1. [函数式编程](https://ppt.baomitu.com/d/0bda92b8#/)
