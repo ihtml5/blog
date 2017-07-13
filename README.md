@@ -58,6 +58,8 @@
 2. [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
 3. [使用Flexible实现手淘H5页面的终端适配](http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
 4. [lib-flexible](https://github.com/amfe/lib-flexible)
+5. [Qreact，去哪儿网的迷你react方案](https://zhuanlan.zhihu.com/p/26794987)
+6. [React移动web极致优化](http://dev.qq.com/topic/579083d1c9da73584b02587d)
 
 
 ### 单页应用
