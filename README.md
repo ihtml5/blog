@@ -60,7 +60,8 @@
 4. [lib-flexible](https://github.com/amfe/lib-flexible)
 5. [Qreact，去哪儿网的迷你react方案](https://zhuanlan.zhihu.com/p/26794987)
 6. [React移动web极致优化](http://dev.qq.com/topic/579083d1c9da73584b02587d)
-
+7. [解析Twitter前端架构 学习复杂场景数据设计](https://segmentfault.com/a/1190000009224244)
+8. [Dissecting Twitter’s Redux Stor](https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1)
 
 ### 单页应用
 1. [持续部署单页应用的7大技巧](http://www.jianshu.com/p/6185a9bfd9eb)
