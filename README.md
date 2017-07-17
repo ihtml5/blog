@@ -9,8 +9,11 @@
 1. [web前端安全机制问题全解析](http://imweb.io/topic/56f895bf14ea0f7263803d5b)
 ### 跨端
 1. [React Native初探](http://www.cnblogs.com/yexiaochai/p/6042112.html)
-### 框架设计
+
+### 架构
 1. [Patterns For Large-Scale JavaScript Application Architecture](https://addyosmani.com/largescalejavascript/)
+2. [组件化漫谈](http://www.jianshu.com/p/67a6004f6930)
+
 ### 跨域
 
 1. [Cross-Origin Resource Sharing](https://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
