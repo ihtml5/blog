@@ -66,3 +66,16 @@
 7. [解析Twitter前端架构 学习复杂场景数据设计](https://segmentfault.com/a/1190000009224244)
 8. [Dissecting Twitter’s Redux Stor](https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1)
 9. [持续部署单页应用的7大技巧](http://www.jianshu.com/p/6185a9bfd9eb)
+
+### async
+
+1. [Async/Await替代Promise的6个理由](http://kiwenlau.com/2017/04/01/nodejs-async-await/)
+2. [体验异步的终极解决方案-ES7的Async/Await](https://cnodejs.org/topic/5640b80d3a6aa72c5e0030b6)
+3. [6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial)](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
+4. [hey-async-await-me](http://www.alloyteam.com/2015/12/hey-async-await-me/)
+
+### router
+
+1. [react-router](https://github.com/ReactTraining/react-router)
+2. [Build your own React Router v4](https://tylermcginnis.com/build-your-own-react-router-v4/)
+3. [All About React Router 4](https://css-tricks.com/react-router-4/?utm_source=reactnl&utm_medium=email)
