@@ -1,11 +1,6 @@
 ## **My Blog**
 分享自己在前端开发过程中学到的知识
 
-### 每日前端好文精读
-1. [司徒正美介绍类react框架anu如何实现在ie8上运行](http://react-china.org/t/react-anu-ie/12788)
-2. [DOM事件简介](http://blog.jobbole.com/52430/)
-3. [javascript线程及与线程有关的性能优化](https://github.com/woai30231/javascriptThreadStudy)
-
 ### 跨域
 
 1. [Cross-Origin Resource Sharing](https://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
@@ -79,3 +74,8 @@
 1. [react-router](https://github.com/ReactTraining/react-router)
 2. [Build your own React Router v4](https://tylermcginnis.com/build-your-own-react-router-v4/)
 3. [All About React Router 4](https://css-tricks.com/react-router-4/?utm_source=reactnl&utm_medium=email)
+
+
+#### webpack
+
+1. [webpack2 终极优化](http://imweb.io/topic/5868e1abb3ce6d8e3f9f99bb)
