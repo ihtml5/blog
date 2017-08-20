@@ -74,6 +74,12 @@
 1. [react-router](https://github.com/ReactTraining/react-router)
 2. [Build your own React Router v4](https://tylermcginnis.com/build-your-own-react-router-v4/)
 3. [All About React Router 4](https://css-tricks.com/react-router-4/?utm_source=reactnl&utm_medium=email)
+4. [Building a Router with Raw React](http://jamesknelson.com/routing-with-raw-react/)
+5. [Let's create our own router component with React.js](https://enome.github.io/javascript/2014/05/09/lets-create-our-own-router-component-with-react-js.html)
+6. [ReactRouter-V4 构建之道与源码分析](https://zhuanlan.zhihu.com/p/25696969)
+7. [react-router@4.0 使用和源码解析](http://www.jianshu.com/p/27ee7df4ccc1)
+8. [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
+9. [Context](https://facebook.github.io/react/docs/context.html)
 
 
 #### webpack
